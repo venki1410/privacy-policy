@@ -5,39 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy – TVK App</title>
   <style>
+    :root {
+      --bg: #f9fafc;
+      --card-bg: #ffffff;
+      --text: #333;
+      --primary: #4a90e2;
+      --accent: #2c3e50;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f8f9fa;
-      color: #333;
-      line-height: 1.7;
       margin: 0;
       padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #4a90e2, #0077c2);
+      color: white;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
     }
 
     .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2rem 1.5rem;
-      background-color: #fff;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      border-radius: 12px;
-    }
-
-    h1, h2 {
-      color: #2c3e50;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 0.5rem;
+      max-width: 900px;
+      margin: -40px auto 2rem auto;
+      padding: 2rem;
+      background-color: var(--card-bg);
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
     }
 
     h2 {
       margin-top: 2rem;
-      font-size: 1.25rem;
-      color: #34495e;
+      font-size: 1.4rem;
+      color: var(--accent);
+      border-left: 4px solid var(--primary);
+      padding-left: 0.6rem;
     }
 
     ul {
@@ -45,7 +63,7 @@
     }
 
     a {
-      color: #007bff;
+      color: var(--primary);
       text-decoration: none;
     }
 
@@ -55,40 +73,43 @@
 
     .footer {
       font-size: 0.9rem;
-      color: #666;
-      margin-top: 2rem;
-      border-top: 1px solid #ddd;
-      padding-top: 1rem;
+      text-align: center;
+      padding: 1rem 0;
+      color: #888;
     }
 
     @media (max-width: 600px) {
-      .container {
-        padding: 1.5rem 1rem;
+      header h1 {
+        font-size: 1.6rem;
       }
 
-      h1 {
-        font-size: 1.5rem;
+      .container {
+        margin: -30px 1rem 2rem 1rem;
+        padding: 1.5rem;
       }
 
       h2 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
       }
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <header>
     <h1>Privacy Policy</h1>
-    <p><strong>Venkatesh</strong> built the <strong>TVK</strong> app as a Free app. This SERVICE is provided by Venkatesh at no cost and is intended for use as is.</p>
+    <p style="margin-top: 0.5rem; font-size: 1rem;">for TVK App by Venkatesh</p>
+  </header>
 
-    <p>This page informs users regarding our policies on the collection, use, and disclosure of Personal Information for anyone who decides to use our Service.</p>
+  <div class="container">
+    <p><strong>Venkatesh</strong> built the <strong>TVK</strong> app as a Free app. This SERVICE is provided at no cost and is intended for use as-is.</p>
 
-    <p>By using this Service, you agree to the collection and use of information in accordance with this policy. The information we collect is used to provide and improve the Service. We do not share your information except as described in this policy.</p>
+    <p>This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information for anyone using our Service.</p>
+
+    <p>By using this Service, you agree to the terms in this policy. The data we collect is only used for improving the app. We do not share personal information except as described.</p>
 
     <h2>Information Collection and Use</h2>
-    <p>To improve your experience, we may require you to provide certain personal information, such as your mobile number. This data stays on your device and is not collected by us.</p>
-
-    <p>We also use third-party services that may collect information used to identify you.</p>
+    <p>We may require personal information such as your mobile number to improve functionality. This information stays on your device and is not collected by us.</p>
+    <p>We also use third-party services that may collect certain data to identify you.</p>
 
     <strong>Third-party privacy policies:</strong>
     <ul>
@@ -96,40 +117,39 @@
     </ul>
 
     <h2>Log Data</h2>
-    <p>If the app encounters an error, we collect data (via third-party tools) such as your device's IP address, device name, OS version, the time/date of usage, and other stats. This helps us improve the app.</p>
+    <p>In case of an error in the app, we collect data such as your device name, OS version, IP address, and time/date to help improve the service.</p>
 
     <h2>Cookies</h2>
-    <p>Cookies are small files used for tracking. While our app doesn’t use cookies directly, some third-party tools may use them. You can accept or reject cookies in your device settings.</p>
+    <p>Cookies are small data files used for tracking. While our app doesn’t use cookies directly, some third-party libraries may use them. You can control this in your device settings.</p>
 
     <h2>Service Providers</h2>
-    <p>We may use third-party providers for:</p>
+    <p>We may engage third-party companies to help us improve our service:</p>
     <ul>
-      <li>App functionality</li>
-      <li>Service improvements</li>
-      <li>Data analytics</li>
+      <li>To provide the service on our behalf</li>
+      <li>To perform service-related tasks</li>
+      <li>To analyze usage</li>
     </ul>
-    <p>They have limited access to your data and are bound to keep it secure and confidential.</p>
+    <p>These parties only access your data to perform specific tasks and are obligated to protect it.</p>
 
     <h2>Security</h2>
-    <p>We value your trust in providing personal data. We use commercially acceptable means to protect it, but no method is 100% secure.</p>
+    <p>We value your trust in providing us your personal data, thus we strive to use commercially acceptable means to protect it. However, no method is 100% secure.</p>
 
     <h2>Links to Other Sites</h2>
-    <p>This app may link to external websites. We are not responsible for the content or privacy policies of those sites. Please review them independently.</p>
+    <p>This app may link to external websites. We strongly advise you to review their privacy policies. We do not control or take responsibility for them.</p>
 
     <h2>Children’s Privacy</h2>
-    <p>This app is not intended for children under 13. We do not knowingly collect data from them. If you are a parent or guardian and believe your child has shared data, contact us to remove it.</p>
+    <p>This app does not knowingly collect information from children under 13. If you are a parent or guardian and believe your child has shared data, contact us so we can delete it.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy periodically. You are advised to check this page regularly for updates.</p>
-
+    <p>We may update this Privacy Policy from time to time. You are advised to review this page periodically for any changes.</p>
     <p><strong>Effective Date:</strong> May 29, 2025</p>
 
     <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, contact us at <a href="mailto:venki14101996@gmail.com">venki14101996@gmail.com</a>.</p>
+    <p>If you have any questions or suggestions about our Privacy Policy, contact us at <a href="mailto:venki14101996@gmail.com">venki14101996@gmail.com</a>.</p>
+  </div>
 
-    <div class="footer">
-      <p>This privacy policy was generated using a public template and modified for the TVK app.</p>
-    </div>
+  <div class="footer">
+    <p>&copy; 2025 TVK App. All rights reserved.</p>
   </div>
 </body>
 </html>
